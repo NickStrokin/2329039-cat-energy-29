@@ -1,0 +1,62 @@
+.cat__wrapper {
+  position: relative;
+  width: 280px;
+  display: flex;
+  height: 256px;
+}
+
+.cat__button {
+  width: 4px;
+  height: 256px;
+  border: none;
+  padding: 0;
+  background-color: @specialgrey;
+  border-radius: 3px;
+  position: absolute;
+  left: 137px;
+  z-index: 1;
+}
+
+.cat__fat-position {
+  position: absolute;
+  left: -50%;
+}
+
+.cat__fat-wrapper {
+  width: 280px;
+  height: 256px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cat__fat {
+  position: absolute;
+  left: 50%;
+  object-fit: cover;
+}
+
+.cat__slim-wrapper {
+  position: absolute;
+  left: 50%;
+}
+
+.cat__slim-wrapper-reverse {
+  width: 280px;
+  height: 256px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.cat__slim {
+  position: absolute;
+  left: -50%;
+  object-fit: cover;
+}
+
+.cat__button-slider {
+  position: absolute;
+  top: 109px;
+  left: 119px;
+  z-index: 2;
+}

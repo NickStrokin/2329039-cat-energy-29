@@ -1,0 +1,42 @@
+.site-list__wrapper {
+  position: relative;
+  display: none;
+}
+
+.site-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 320px;
+  background-color: @background;
+  position: absolute;
+  z-index: 1;
+  min-width: 320px;
+  overflow: auto;
+}
+
+.site-list__item a {
+  text-decoration: none;
+  color: #000000;
+  display: block;
+}
+
+.site-list__item {
+  font-family: "Oswald", "Tahoma", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 24px;
+  border-top: 1px solid #e6e6e6;
+  box-sizing: border-box;
+}
+
+.site-list__item a:hover {
+  opacity: 0.6;
+}
+
+.show {
+  display: block;
+}
